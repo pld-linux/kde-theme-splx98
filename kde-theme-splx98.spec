@@ -83,8 +83,10 @@ mv -f kstyle $RPM_BUILD_ROOT%{_datadir}/apps
 mv -f splx98.kcsrc $RPM_BUILD_ROOT%{_datadir}/apps/kdisplay/color-schemes
 rm -rf *.sh
 rm -rf *.spec
+sed -i -e "s,mdk-hicolor,crystalsvg," $RPM_BUILD_ROOT%{_iconsdir}/kde_xp/index.desktop
+echo "Comment=A clone of the standard Windows XP icon theme." >> $RPM_BUILD_ROOT%{_iconsdir}/kde_xp/index.desktop
 
-%post kde-style-%{_name}
+%post -n kde-style-%{_name}
 /sbin/ldconfig
 echo "You may have to run kinstalltheme for this theme to become available"
 echo "in currently opened sessions."
