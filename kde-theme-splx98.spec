@@ -95,7 +95,7 @@ rm -rf $RPM_BUILD_ROOT
 %files -n kde-style-%{_name}
 %defattr(644,root,root,755)
 %{_datadir}/apps/kstyle/themes/*.themerc
-%{_datadir}/apps/kstyle/themes/pixmaps/*
+%{_datadir}/apps/kstyle/pixmaps/*
 
 %files -n kde-icons-%{_name}
 %defattr(644,root,root,755)
