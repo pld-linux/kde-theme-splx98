@@ -83,8 +83,8 @@ mv -f kstyle $RPM_BUILD_ROOT%{_datadir}/apps
 mv -f splx98.kcsrc $RPM_BUILD_ROOT%{_datadir}/apps/kdisplay/color-schemes
 rm -rf *.sh
 rm -rf *.spec
-sed -i -e "s,mdk-hicolor,crystalsvg," $RPM_BUILD_ROOT%{_iconsdir}/kde_xp/index.desktop
-echo "Comment=A clone of the standard Windows XP icon theme." >> $RPM_BUILD_ROOT%{_iconsdir}/kde_xp/index.desktop
+sed -i -e "s,mdk-hicolor,crystalsvg," $RPM_BUILD_ROOT%{_iconsdir}/splx98/index.desktop
+echo "Comment=A clone of the standard Windows 98 icon theme." >> $RPM_BUILD_ROOT%{_iconsdir}/splx98/index.desktop
 
 %post -n kde-style-%{_name}
 /sbin/ldconfig
