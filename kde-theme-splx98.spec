@@ -84,6 +84,11 @@ mv -f splx98.kcsrc $RPM_BUILD_ROOT%{_datadir}/apps/kdisplay/color-schemes
 rm -rf *.sh
 rm -rf *.spec
 
+%post kde-style-%{_name}
+/sbin/ldconfig
+echo "You may have to run kinstalltheme for this theme to become available"
+echo "in currently opened sessions."
+
 %clean
 rm -rf $RPM_BUILD_ROOT
 
