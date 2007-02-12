@@ -2,7 +2,7 @@
 %define		_name	splx98
 
 Summary:	KDE theme - %{_name}
-Summary(pl):	Motyw KDE - %{_name}
+Summary(pl.UTF-8):   Motyw KDE - %{_name}
 Name:		kde-theme-%{_name}
 Version:	0.2
 Release:	2
@@ -21,48 +21,48 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Splx98 style resembles an unthemed Windows 98 look and feel.
 
-%description -l pl
-Splx98 odwzorowuje wygl±d domy¶lny Windows 98.
+%description -l pl.UTF-8
+Splx98 odwzorowuje wyglÄ…d domyÅ›lny Windows 98.
 
 %package -n kde-style-%{_name}
 Summary:	KDE style - %{_name}
-Summary(pl):	Styl do KDE - %{_name}
+Summary(pl.UTF-8):   Styl do KDE - %{_name}
 Group:		Themes
 Requires:	kdelibs
 
 %description -n kde-style-%{_name}
 Splx98 style resembles an unthemed Windows 98 look and feel.
 
-%description -n kde-style-%{_name} -l pl
-Splx98 odwzorowuje wygl±d domy¶lny Windows 98.
+%description -n kde-style-%{_name} -l pl.UTF-8
+Splx98 odwzorowuje wyglÄ…d domyÅ›lny Windows 98.
 
 %package -n kde-icons-%{_name}
 Summary:	KDE icon theme - %{_name}
-Summary(pl):	Motyw ikon do kde - %{_name}
+Summary(pl.UTF-8):   Motyw ikon do kde - %{_name}
 Group:		Themes
 Requires:	kdelibs
 
 %description -n kde-icons-%{_name}
 An icon theme that resembles the Windows 98 hicolor icons.
 
-%description -n kde-icons-%{_name} -l pl
-Motyw ikon odpowiadaj±cy ikonom w Windows 98.
+%description -n kde-icons-%{_name} -l pl.UTF-8
+Motyw ikon odpowiadajÄ…cy ikonom w Windows 98.
 
 %package -n kde-colorscheme-%{_name}
 Summary:	Color scheme for KDE style - %{_name}
-Summary(pl):	Schemat kolorów do stylu KDE - %{_name}
+Summary(pl.UTF-8):   Schemat kolorÃ³w do stylu KDE - %{_name}
 Group:		Themes
 Requires:	kdebase-core
 
 %description -n kde-colorscheme-%{_name}
 Default Windows 98 color scheme.
 
-%description -n kde-colorscheme-%{_name} -l pl
-Domy¶lny schemat kolorów Windows 98.
+%description -n kde-colorscheme-%{_name} -l pl.UTF-8
+DomyÅ›lny schemat kolorÃ³w Windows 98.
 
 %package -n kde-wallpaper-%{_name}
 Summary:	KDE wallpaper - %{_name}
-Summary(pl):	Tapeta do KDE - %{_name}
+Summary(pl.UTF-8):   Tapeta do KDE - %{_name}
 Group:		Themes
 # Contains /usr/share/wallpapers
 Requires:	kdelibs
@@ -70,7 +70,7 @@ Requires:	kdelibs
 %description -n kde-wallpaper-%{_name}
 Wallpapers similar to those distributed with Windows 98/ME.
 
-%description -n kde-wallpaper-%{_name} -l pl
+%description -n kde-wallpaper-%{_name} -l pl.UTF-8
 Tapety podobne do dostarczanych z Windows 98/ME.
 
 %prep
