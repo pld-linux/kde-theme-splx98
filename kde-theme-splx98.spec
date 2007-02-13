@@ -2,7 +2,7 @@
 %define		_name	splx98
 
 Summary:	KDE theme - %{_name}
-Summary(pl.UTF-8):   Motyw KDE - %{_name}
+Summary(pl.UTF-8):	Motyw KDE - %{_name}
 Name:		kde-theme-%{_name}
 Version:	0.2
 Release:	2
@@ -26,7 +26,7 @@ Splx98 odwzorowuje wygląd domyślny Windows 98.
 
 %package -n kde-style-%{_name}
 Summary:	KDE style - %{_name}
-Summary(pl.UTF-8):   Styl do KDE - %{_name}
+Summary(pl.UTF-8):	Styl do KDE - %{_name}
 Group:		Themes
 Requires:	kdelibs
 
@@ -38,7 +38,7 @@ Splx98 odwzorowuje wygląd domyślny Windows 98.
 
 %package -n kde-icons-%{_name}
 Summary:	KDE icon theme - %{_name}
-Summary(pl.UTF-8):   Motyw ikon do kde - %{_name}
+Summary(pl.UTF-8):	Motyw ikon do kde - %{_name}
 Group:		Themes
 Requires:	kdelibs
 
@@ -50,7 +50,7 @@ Motyw ikon odpowiadający ikonom w Windows 98.
 
 %package -n kde-colorscheme-%{_name}
 Summary:	Color scheme for KDE style - %{_name}
-Summary(pl.UTF-8):   Schemat kolorów do stylu KDE - %{_name}
+Summary(pl.UTF-8):	Schemat kolorów do stylu KDE - %{_name}
 Group:		Themes
 Requires:	kdebase-core
 
@@ -62,7 +62,7 @@ Domyślny schemat kolorów Windows 98.
 
 %package -n kde-wallpaper-%{_name}
 Summary:	KDE wallpaper - %{_name}
-Summary(pl.UTF-8):   Tapeta do KDE - %{_name}
+Summary(pl.UTF-8):	Tapeta do KDE - %{_name}
 Group:		Themes
 # Contains /usr/share/wallpapers
 Requires:	kdelibs
